@@ -1,3 +1,13 @@
+## Evaluator
+Evaluator.py will be used to evaluate your mode.
+Make sure the code is compatible with it.
+
+There are some examples
+anonymizer_mock.py - a fake anonymizer example, it uses train data to output 95% accuracy.
+anonymizer_ronec.py - uses original ronec pretrained model (but different labels)
+anonymizer_template.py - use is a template for your code.
+
+
 ## Dataset Characteristics:
 
 - **Language**: Romanian (Moldova dialect)
