@@ -1,5 +1,5 @@
 ## Evaluator
-Evaluator.py will be used to evaluate your mode.
+Evaluator.py will be used to evaluate your model.
 Make sure the code is compatible with it.
 
 There are some examples
