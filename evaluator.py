@@ -178,10 +178,7 @@ def main():
         print("No examples loaded. Check the --data path.")
         return
 
-    # Init client and evaluator, use your client here
-    from anonymizer_ronec import AnonymizerRonec as Anonymizer
-    # from anonymizer_mock import AnonymizerMock as Anonymizer
-    # from anonymizer_template import Anonymizer
+    from anonymizer_gliner import Anonymizer
 
     client = Anonymizer()
     evaluator = Evaluator(client, ignore_labels=args.ignore_labels)
